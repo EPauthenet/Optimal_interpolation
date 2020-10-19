@@ -64,6 +64,6 @@ dec_noise_offset = 8.5;
 options= [eps100 eps999 create_new compute_interior  drawit useargo upperocean upperocean_limit wfkt_multiplier  max_profs_inmem min_CTD_profs max_num_profs  min_num_profs num_of_rand_profiles  min_allowed_weight  rnd_within  iqr_mult  continue_at  continue_upto continue_lon_at continue_lon_upto  OMP_NUM_THREADS_DAY  OMP_NUM_THREADS_NIGHT  signal_to_noise horiz_scale_set time_scale  tim  centeryear dec_scale dec_noise_offset ];
 %--------
 
-Sunke_OI(argo_float_data, wod_ctd_data, FM_fname, AdditionalFields, output_fname,  lon_grid, lat_grid, options);
+OI(argo_float_data, wod_ctd_data, FM_fname, AdditionalFields, output_fname,  lon_grid, lat_grid, options);
 
 
