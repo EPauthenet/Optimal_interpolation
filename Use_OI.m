@@ -1,9 +1,6 @@
 % define files to use and output:
-argo_float_data='/.../SO_merged_argoseals_DB.nc';
-wod_ctd_data = '/.../SO_merged_ship_DB.nc';	% file argo_seals avec calcul de Bt & Bs
-%%% FM_fname ='/.../Sunke_OI_data/global_FM.nc';
-%%% output_fname = '/.../CLIM_000_360_nointerior_05.nc'
-
+argo_float_data='/.../SO_merged_argoseals_DB.nc'; %File with argo and seals profiles combined
+wod_ctd_data = '/.../SO_merged_ship_DB.nc';	%File with Ship profiles
 FM_fname ='/.../SO_Gebco_FM_05.nc';  %Fast Marching field for a 0.5x0.5 resolution (use global_dist_maps_azimuth05.m to get the Fast Marching matrix)
 output_fname = '/.../CLIM_PC_05.nc'
 
