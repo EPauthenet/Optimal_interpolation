@@ -1,5 +1,5 @@
 
-function Sunke_OI(argo_float_data, wod_ctd_data, FM_fname, AdditionalFields, output_fname,  lon_grid, lat_grid, option);
+function OI(argo_float_data, wod_ctd_data, FM_fname, AdditionalFields, output_fname,  lon_grid, lat_grid, option);
 
 %DERNIERE VERSION 9 FEVRIER
 
